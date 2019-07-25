@@ -7,4 +7,4 @@ His project uses a number of shoe images based on the same general style, with v
 
 So as a clever twist to get the bespoke dataset into a format that the DCGAN expects - a NumPy shape of (140, 45, 45, 3) - the images needed to be decomposed to their raw pixel values, and then persisted by storing them as an array in NumPy's uncompressed NPZ format. The 140 images Connor uses with both the testing and training sets combined come out to 1.6MB on disk.
 
-I upscaled the demo to Google Colab to make use of cloud GPUs and make the machine learning run consist of many more epochs, hopefully to get both the DCGAN's generator and discriminator models to converge (or get close to it). I used Google Drive File Stream to access the .npz file on disk in my share space. 
+I upscaled the demo to [Google Colab](https://colab.research.google.com/drive/12tPO5nwTgAtQHCWugo72CuZJOa1rLneD) to make use of cloud GPUs and make the machine learning run consist of many more epochs, hopefully to get both the DCGAN's generator and discriminator models to converge (or get close to it). I used Google Drive File Stream to access the .npz file on disk in my share space. 
